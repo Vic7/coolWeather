@@ -5,34 +5,57 @@ package com.vic.coolweather.model;
  */
 
 public class County {
-    private int id;
-    private String countyName;
-    private String countyCode;
-    private int cityId;
+    public String city;
+    public String id;
+    public String cnty;
+    public String lat;
+    public String lon;
+    public String prov;
 
-    public int getId(){
-        return id;
-    }
-    public void setId(int id){
-        this.id=id;
-    }
-    public String getCountyName(){
-        return countyName;
-    }
-    public void setCountyName(String countyName){
-        this.countyName= countyName;
-    }
-    public String getCountyCode(){
-        return countyCode;
-    }
-    public void setCountyCode(String countyCode){
-        this.countyCode=countyCode;
-    }
-    public int getCityId(){
-        return cityId;
-    }
-    public void setCityId(int cityId){
-        this.cityId=cityId;
-    }
+    public String countyCode,cityCode,provinceCode;
+
+//    public int getId(){
+//        return id;
+//    }
+//    public void setId(int id){
+//        this.id=id;
+//    }
+//    public String getCountyName(){
+//        return countyName;
+//    }
+//    public void setCountyName(String countyName){
+//        this.countyName= countyName;
+//    }
+//    public String getCountyId(){
+//        return countyId;
+//    }
+//    public void setCountyId(String countyId){
+//        this.countyId=countyId;
+//    }
+//    public String getCountry(){
+//        return country;
+//    }
+//    public void setCountry(String country){
+//        this.country=country;
+//    }
+//    public String getLat(){
+//        return lat;
+//    }
+//    public void setLat(String lat){
+//        this.lat=lat;
+//    }
+//    public String getLon(){
+//        return lon;
+//    }
+//    public void setLon(String lon){
+//        this.lon=lon;
+//    }
+//    public String getProvince(){
+//        return province;
+//    }
+//    public void setProvince(String province){
+//        this.province=province;
+//    }
+
 }
 
